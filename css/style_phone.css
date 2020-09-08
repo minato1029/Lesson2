@@ -1,0 +1,331 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 959px){
+    body header {
+        margin-top: 20px;
+    }
+    body header .first  {
+        height: 80px;
+    }
+    body header .first a {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+    body header .first a img {
+        width: 60px;
+        height: 60px;
+        padding: 5px 15px 0 0;
+    }
+    body header .first a p {
+        font-size: 1.7em;
+        font-family: Philosopher, serif;
+        height: 60px;
+        margin-top: 20px;
+        color: #282800;
+    }
+    body header nav ul {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        padding-left: 0;
+    }
+    body header nav ul li {
+        padding-right: 30px;
+    }
+    body header nav ul li:last-child {
+        padding-right: 0;
+    }
+    body header nav ul li a {
+        text-decoration: none;
+        color: #282800;
+    }
+
+
+
+
+    .index {
+        background-image: url("../images/main-bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 100vh;
+    }
+    .index .inner {
+        margin: 100px auto 0;
+        width: 90vw;
+    }
+    .index .inner h1 {
+        text-align: center;
+        font-family: Philosopher, serif;
+    }
+    .index .inner p {
+        text-align: center;
+        padding-top: 15px;
+        line-height: 1.7;
+    }
+    .index .inner a {
+        display: block;
+        text-align: center;
+    }
+    .index .inner a button {
+        width: 200px;
+        height: 50px;
+        border-radius: 5px;
+        border: none;
+        background-color: #00b9d5;
+        margin-top: 40px;
+        color: white;
+    }
+
+
+
+    .news {
+        background-image: url("../images/news-bg2.jpeg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 0 60px;
+        height: 100vh;
+    }
+    .news .inner {
+        width: 95vw;
+        margin: 50px auto;
+    }
+    .news .inner .headline h1 {
+        text-align: center;
+        font-family: Philosopher, serif;
+        font-size: 2.5em;
+    }
+    .news .inner article .main-column {
+        margin-top: 70px;
+    }
+    .news .inner article .main-column .title  {
+        display: flex;
+    }
+    .news .inner article .main-column .title .date {
+        background-color: #00b9d5;
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        margin-left: 10px;
+    }
+    .news .inner article .main-column .title .date p {
+        text-align: center;
+        color: white;
+        font-size: 0.8em;
+    }
+    .news .inner article .main-column .title .date .month {
+        border-bottom: 1px solid white;
+        width: 50px;
+        padding-bottom: 5px;
+        margin: 13px auto 0;
+    }
+    .news .inner article .main-column .title .date .year {
+        margin-top: 0;
+        padding-top: 5px;
+    }
+    .news .inner article .main-column .title .content {
+        width: 72vw;
+        margin: 0 0 0 10px;
+    }
+    .news .inner article .main-column .title .content h2 {
+        margin: 8px 0 10px 0;
+        font-size: 1.4em;
+        font-family: serif;
+    }
+    .news .inner article .main-column .title .content p {
+        font-size: 0.7em;
+        margin: 0 0 30px 0;
+    }
+    .news .inner article .main-column .explanation img {
+        width: 100%;
+    }
+    .news .inner article .main-column .explanation .sentence {
+        color: #282800;
+        line-height: 1.5em;
+    }
+    .news .inner article .side-column {
+        padding: 50px 15px 0 15px;
+    }
+    .news .inner article .side-column .category p {
+        padding-bottom: 10px;
+        border-bottom: #00acc4 2px solid;
+        margin-bottom: 8px;
+        font-size: 1.2em;
+        font-family: serif;
+    }
+    .news .inner article .side-column .category ul {
+        list-style-type: none;
+        padding-left: 0;
+        margin-top: 0;
+    }
+    .news .inner article .side-column .category ul li {
+        padding: 8px 0 8px 0;
+        border-bottom: #cdcdcd 1px solid;
+    }
+    .news .inner article .side-column .category ul li:last-child {
+        border-bottom: none;
+    }
+    .news .inner article .side-column .shop {
+        margin-top: 50px;
+    }
+    .news .inner article .side-column .shop h3 {
+        font-weight: normal;
+        padding-bottom: 10px;
+        border-bottom: #00acc4 2px solid;
+    }
+    .news .inner article .side-column .shop p {
+        line-height: 1.5em;
+    }
+    .news footer {
+        height: 50px;
+        background-color: #4c290f;
+        color: white;
+        text-align: center;
+    }
+    .news footer p {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+
+
+
+    .menu {
+        background-image: url("../images/menu-bg2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 80vh;
+    }
+    .menu main {
+        width: 95vw;
+        margin: 0 auto;
+    }
+    .menu main .headline-menu {
+        margin-top: 100px;
+        margin-bottom: 200px;
+    }
+    .menu main .headline-menu h1 {
+        font-family: Philosopher, serif;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .menu main .headline-menu p {
+        padding: 0 10px 0;
+        line-height: 1.5em;
+        color: #301a09;
+    }
+    .menu main article .grid {
+        width: 100%;
+        margin: 250px auto 0;
+    }
+    .menu main article .grid img {
+        width: 100%;
+    }
+    .menu main article .grid p {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .menu footer {
+        background-color: #4c290f;
+        height: 30px;
+        text-align: center;
+    }
+    .menu footer p {
+        color: white;
+        display: inline-block;
+        vertical-align: middle;
+        margin: auto;
+    }
+
+
+
+    .contact {
+        background-image: url("../images/contact-bg4.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+        height: 100vh;
+    }
+    .contact main {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .contact main .headline-contact h1 {
+        margin-top: 100px;
+        font-family: Philosopher, serif;
+    }
+    .contact main article .form dd {
+        margin: 15px 0 20px 0;
+    }
+    .contact main article .form dd input {
+        border: 1px solid white;
+        background-color: rgba( 255, 255, 255, 0.5 );
+        height: 40px;
+        width: 100%;
+        border-radius: 5px;
+    }
+    .contact main article .form dd textarea {
+        width: 100%;
+        border: 1px solid white;
+        background-color: rgba( 255, 255, 255, 0.5 );
+        border-radius: 5px;
+    }
+    .contact main article .form .input {
+        background-color: #00b9d5;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        width: 70px;
+        height: 40px;
+    }
+    .contact main article .access {
+        margin-top: 70px;
+    }
+    .contact main article .access .detail h2 {
+        font-weight: normal;
+        padding-bottom: 15px;
+        border-bottom: #00b9d5 2px solid;
+        color: #301a09;
+    }
+    .contact main article .access .detail p {
+        color: #301a09;
+        font-size: 0.8em;
+        line-height: 0.9em;
+    }
+    .contact main article .access iframe {
+        width: 100%;
+        padding-top: 0;
+    }
+    .contact main .SNS .facebook p {
+        font-size: 1.5em;
+        padding-bottom: 15px;
+        border-bottom: #00b9d5 2px solid;
+        color: #301a09;   }
+    .contact main .SNS .twitter p {
+        font-size: 1.5em;
+        padding-bottom: 15px;
+        border-bottom: #00b9d5 2px solid;
+        color: #301a09;
+    }
+    .contact main .SNS .youtube p {
+        font-size: 1.5em;
+        padding-bottom: 15px;
+        border-bottom: #00b9d5 2px solid;
+        color: #301a09;
+    }
+    .contact footer {
+        background-color: #4c290f;
+        height: 30px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .contact footer p {
+        color: white;
+        display: inline-block;
+        vertical-align: middle;
+        margin: auto;
+    }
+
+}

@@ -1,0 +1,328 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 960px){
+body header{
+    max-width: 1000px;
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    /*border: solid 1px black;*/
+}
+body header .first a {
+    display: flex;
+    text-decoration: none;
+    color: #282800;
+}
+body header .first img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding: 20px 10px 0 0;
+}
+body header .first p {
+    padding: 5px 0 0 0;
+    font-size: 1.5em;
+    font-family: 'Philosopher', serif;
+}
+body header nav {
+    margin: 0 0 0 auto;
+}
+body header nav ul {
+    display: flex;
+    list-style-type: none;
+    padding-top: 20px;
+}
+body header nav ul li{
+    padding-right: 40px;
+}
+body header nav ul li a {
+    text-decoration: none;
+    color: #282800;
+}
+body footer {
+    background-color: #4c290f;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+body footer p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+
+.index {
+    background-image: url("../images/main-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.index main .inner {
+    width: 800px;
+    margin: 200px auto;
+}
+.index main .inner h1 {
+    text-align: center;
+    font-family: 'Philosopher', serif;
+    font-size: 4em;
+}
+.index main .inner p {
+    text-align: center;
+}
+.index main .inner a {
+    display: block;
+    text-align: center;
+    padding-top: 25px;
+}
+.index main .inner a button {
+    width: 250px;
+    height: 50px;
+    background-color: #00acc4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.news {
+    background-image: url("../images/news-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+}
+.news main .inner {
+    width: 1250px;
+    margin: 0 auto;
+}
+.news main .headline {
+    padding-bottom: 50px;
+}
+.news main .headline h1 {
+    font-family: "Philosopher", serif;
+    font-size: 5em;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.news main .column {
+    display: flex;
+    margin: 0 auto 100px;
+}
+.news main .column .main-column {
+    width: 700px;
+    margin-left: 50px;
+}
+.news main .column .main-column .title {
+    display: flex;
+    margin-bottom: 20px;
+}
+.news main .column .main-column .date {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    background-color: #00acc4;
+    border-radius: 75px;
+    color: white;
+}
+.news main .column .main-column .date .month {
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    width: 100px;
+    position: relative;
+    top: -10px;
+    left: 25px;
+    text-align: center;
+    font-size: 2.5em;
+}
+.news main .column .main-column .date .year {
+    position: relative;
+    top: -30px;
+    text-align: center;
+}
+.news main .column .main-column .content {
+    width: 550px;
+    padding: 10px 20px 0 10px;
+}
+.news main .column .main-column .content h2{
+    font-size: 2em;
+    font-family: Serif;
+    color: #301a09;
+}
+.news main .column .main-column .sentence {
+    margin-top: 50px;
+    font-size: 1.2em;
+    font-family: Serif;
+    color: #301a09;
+}
+.news main .column .main-column img {
+    width: 700px;
+}
+.news main .column .side-column {
+    margin: 20px 0 0 150px;
+    width: 250px;
+
+}
+.news main .column .side-column .category p {
+    font-size: 1.7em;
+    color: #301a09;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #00acc4;
+}
+.news main .column .side-column ul {
+    list-style-type: none;
+    padding-left: 0;
+    color: #301a09;
+    margin-bottom: 50px;
+}
+.news main .column .side-column li {
+    color: #301a09;
+    border-bottom: 1px solid #cdcdcd;
+    padding: 10px 0 10px 0;
+    font-weight: 200;
+
+}
+.news main .column .side-column .shop h3 {
+    color: #301a09;
+    border-bottom: 2px solid #00acc4;
+    font-weight: normal;
+    font-size: 1.7em;
+    padding-bottom: 10px;
+}
+.news main .column .side-column .shop p {
+    color: #301a09;
+    line-height: 2em;
+}
+
+
+
+
+.menu {
+    background-image: url("../images/menu-bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.menu main .headline-menu {
+    width: 600px;
+    margin: 200px auto;
+}
+.menu main .headline-menu h1 {
+    text-align: center;
+    font-family: 'Philosopher', serif;
+    font-size: 6em;
+    font-weight: normal;
+}
+.menu main .headline-menu p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+.menu main article {
+    margin: 600px auto 200px;
+    width: 1300px;
+}
+.menu main article .grid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+}
+.menu main article .grid img {
+    width: 400px;
+}
+.menu main article .grid .box1 {
+    grid-column: 1 / 3;
+    grid-row:  1 / 3;
+}
+.menu main article .grid .box1 img {
+    width: 845px;
+    height: 600px;
+}
+
+
+
+.contact {
+    background-image: url("../images/contact-bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.contact main .headline-contact h1 {
+    font-family: 'Philosopher', serif;
+    font-size: 6em;
+    font-weight: normal;
+    width: 1300px;
+    margin: 50px 0 10px 300px;
+}
+.contact main article {
+    width: 1300px;
+    margin: 0 0 0 300px;
+}
+.contact main article .form {
+    margin-bottom: 150px;
+}
+.contact main article .form dt {
+    line-height: 2.5em;
+    /*font-size: 1.2em;*/
+}
+.contact main article .form dd {
+    margin-left: 0;
+}
+.contact main article .form dd input {
+    width: 250px;
+    height: 50px;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
+.contact main article .form dd textarea {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.contact main article .form .input {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #00b9d5;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+}
+.contact main article .access {
+    display: flex;
+    height: 700px;
+    margin-bottom: 50px;
+}
+.contact main article .access .detail {
+    width: 400px;
+}
+.contact main .SNS {
+    display: flex;
+    background-color: beige;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.contact main .SNS .facebook {
+    margin-right: 50px;
+    text-align: center;
+    font-size: 1.5em;
+}
+.contact main .SNS .youtube {
+    text-align: center;
+    font-size: 1.5em;
+}
+.contact main .SNS .twitter {
+    margin-right: 50px;
+    text-align: center;
+    font-size: 1.5em;
+}
+.contact main .SNS .youtube p,
+.contact main .SNS .twitter p,
+.contact main .SNS .facebook p {
+    border-bottom: 2px solid #00acc4;
+    padding-bottom: 10px;
+}
+}
+
+
+
+
